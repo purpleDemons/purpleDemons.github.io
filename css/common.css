@@ -1,0 +1,298 @@
+  @font-face {
+      font-family: 'icomoon';
+      src: url('../fonts/icomoon.eot?7kkyc2');
+      src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  i {
+      font-family: "icomoon";
+  }
+  /*  版心*/
+  
+  .w {
+      width: 1200px;
+      margin: 0 auto;
+  }
+  /*清除浮动*/
+  
+  .clearfixed:before,
+  .clearfixed:after {
+      content: "";
+      display: table;
+  }
+  
+  .clearfixed:after {
+      clear: both;
+  }
+  
+  .clearfixed {
+      *zoom: 1;
+  }
+  
+  input {
+      border: none;
+      outline: 0;
+  }
+  
+  button {
+      border: none;
+      outline: none;
+  }
+  
+  .red {
+      color: #c81623;
+  }
+  
+  .fl {
+      float: left;
+  }
+  
+  .fr {
+      float: right;
+  }
+  /*shortcut 顶部导航栏 */
+  
+  .shortcut {
+      height: 31px;
+      background-color: #f1f1f1;
+      line-height: 31px;
+      text-align: center;
+  }
+  
+  .shortcut li {
+      float: left;
+      font-size: 12px;
+  }
+  
+  .fl a {
+      margin: 0 5px;
+  }
+  
+  .spacer {
+      height: 12px;
+      width: 1px;
+      background-color: #666;
+      margin: 8px 14px;
+  }
+  
+  .fr i {
+      line-height: 29px;
+  }
+  /*header*/
+  
+  .header {
+      position: relative;
+      height: 107px;
+  }
+  
+  .logo {
+      position: absolute;
+      top: 27px;
+      left: 0;
+      width: 174px;
+      height: 57px;
+      background: url(../img/logo.png) no-repeat;
+      /*a链接里的网站名称文字不能显示 使用首行缩进排出在隐藏*/
+      text-indent: -999px;
+      overflow: hidden;
+  }
+  
+  .search {
+      position: absolute;
+      top: 27px;
+      left: 345px;
+  }
+  
+  .text {
+      float: left;
+      width: 443px;
+      height: 32px;
+      border: 2px solid #c81623;
+      font-size: 14px;
+      color: #666;
+      padding-left: 10px;
+  }
+  
+  .btn {
+      float: left;
+      width: 81px;
+      height: 36px;
+      background-color: #c81623;
+      font-size: 16px;
+      color: #fff;
+  }
+  
+  .hotwords {
+      position: absolute;
+      top: 68px;
+      left: 345px;
+  }
+  
+  .hotwords a {
+      margin: 0 10px;
+  }
+  
+  .shopcar {
+      position: absolute;
+      top: 27px;
+      right: 65px;
+      width: 139px;
+      height: 34px;
+      background-color: #f7f7f7;
+      text-align: center;
+      line-height: 34px;
+  }
+  
+  .shopcar i {
+      margin: 0 5px;
+  }
+  
+  .car {
+      position: absolute;
+      top: -6px;
+      left: 93px;
+      height: 14px;
+      background-color: #e60012;
+      border-radius: 8px 8px 8px 0;
+      line-height: 14px;
+      padding: 0 2px;
+      color: #fff;
+  }
+  /*nav   start*/
+  
+  .nav {
+      height: 44px;
+      border-bottom: 2px solid #b1191a;
+  }
+  
+  .dropdown .dt {
+      width: 209px;
+      height: 44px;
+      background-color: #b1191a;
+      line-height: 44px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+  }
+  
+  .dropdown .dd {
+      width: 209px;
+      height: 465px;
+      background-color: #c81623;
+  }
+  
+  .dropdown_li {
+      height: 31px;
+      color: #fff;
+      padding: 0 10px;
+      line-height: 31px;
+  }
+  
+  .dropdown_li:hover {
+      background-color: #fff;
+      border-left: 1px solid #c81623;
+  }
+  
+  .dropdown_li:hover a {
+      color: #c81623;
+  }
+  
+  .dropdown_li a {
+      color: #fff;
+  }
+  
+  .dropdown_li i {
+      float: right;
+  }
+  
+  .navitems li {
+      float: left;
+  }
+  
+  .navitems li a {
+      display: block;
+      height: 44px;
+      padding: 0 25px;
+      line-height: 44px;
+      font-size: 16px;
+  }
+  /*footer 底部 */
+  
+  .footer {
+      height: 415px;
+      background-color: #f5f5f5;
+  }
+  
+  .mod_service {
+      height: 106px;
+      border-bottom: 1px solid #ccc;
+  }
+  
+  .mod_service_tit {
+      width: 53px;
+      height: 50px;
+      background: url(../img/jingling.png) no-repeat;
+  }
+  
+  .mod_service li {
+      float: left;
+      width: 205px;
+      height: 76px;
+      padding: 30px 0 0 35px;
+      font-size: 16px;
+  }
+  
+  .mod_service_zheng {
+      background-position: -23px -17px;
+  }
+  
+  .mod_service h4 {
+      font-weight: 700;
+  }
+  
+  .mod_service_ji {
+      background-position: -22px -93px;
+  }
+  
+  .mod_service_hou {
+      background-position: -22px -166px;
+  }
+  
+  .mod_help {
+      height: 189px;
+      border-bottom: 1px solid #ccc;
+  }
+  
+  .mod_help dl {
+      float: left;
+      width: 148px;
+      height: 169px;
+      padding-top: 20px;
+      padding-left: 52px;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  .mod_help dd a {
+      font-size: 12px;
+  }
+  
+  .mod_help_tu {
+      margin-left: 10px;
+  }
+  
+  .mod_help img {
+      margin: 10px 0 10px 0;
+  }
+  
+  .mod_help .pin {
+      font-size: 12px;
+  }
+  
+  .mod-copyright {
+      text-align: center;
+      padding: 19px 0 0 120px;
+      line-height: 20px;
+  }

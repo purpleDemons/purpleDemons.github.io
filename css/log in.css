@@ -1,0 +1,136 @@
+.log {
+	height: 80px;
+	line-height: 80px;
+}
+.account {
+	position: relative;
+	height: 485px;
+	background-color: #7e00ff;
+	
+}
+.account_img {
+	margin-left: -280px;
+}
+ 
+.account_item {
+	position: absolute;
+	top: 60px;
+	left: 800px;
+	width: 305px;
+	height: 330px;
+	background-color: #fff;
+	padding: 20px 35px;
+}
+.account_it_one li {
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.account_it_one li a {
+	display: inline-block;
+	width: 144px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+}
+.account_it_one .current {
+	border: 0;
+	text-align: right;
+}
+.account_it_one .current a {
+	color: #e29fa2;
+}
+.account_it_two {
+	margin-top: 10px;
+	height: 18px;
+	width: 305px;
+	border: 1px solid #ccc;
+	background-color: #fffdee;
+}
+.pd {
+	float: left;
+	height: 35px;
+	width: 305px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	
+}
+.pd input {
+	color:#b2b2b2;
+	font-size: 14px;
+	
+	line-height: 35px;
+}
+.user {
+	height: 35px;
+	width: 37px;
+	background-color: #cfcdcd;
+}
+.user_i {
+	width: 25px;
+	height: 28px;
+	margin: 5px auto;
+	background: url(../img/jingling.png) no-repeat -188px -31px;
+}
+.user_it {
+	width: 19px;
+	height: 27px;
+	margin: 5px auto;
+	background: url(../img/jingling.png) no-repeat -190px -95px;
+}
+.pd:hover {
+	border: 1px solid #3aa2e4;
+}
+
+
+.check {
+	height: 30px;
+	width: 305px;
+	margin-top: 20px;
+}
+
+.check span {
+	color:#b2b2b2;
+}
+.check input {
+	vertical-align: middle;
+}
+.check a {
+	float: right;
+}
+.login {
+	display: block;
+	height: 40px;
+	width: 305px;
+	background-color: #c81623;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+.account_it_four {
+	margin-top: 25px;
+	height: 46px;
+
+	background: url(../img/jingling.png) no-repeat -241px -21px;
+}
+.method {
+	float: left;
+	width: 227px;
+	height: 46px;
+}
+.account_it_four a {
+	line-height: 46px;
+	color: #1474af;
+	font-size: 14px;
+}
+.mod_copyright {
+	text-align: center;
+	
+}
+.mod_copyright p {
+	line-height: 20px;
+}
+.mod_items {
+	padding: 20px 0 15px 0;
+}

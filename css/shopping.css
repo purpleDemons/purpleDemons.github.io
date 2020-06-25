@@ -1,0 +1,549 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family:'icomoon';
+	src:  url('../fonts/icomoon.eot?7kkyc2');
+	     src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+	       url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+	       url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+	       url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+	     font-weight: normal;
+	     font-style: normal;
+}
+i {
+	font-family: 'icomoon';
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #c81623;
+}
+em {
+	font-style: normal;
+}
+input {
+	outline: none;
+}
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfixed:before,
+.clearfixed:after {
+	display: "table";
+	content: "";
+}
+.clearfixed:after {
+	clear: both;
+}
+.clearfixed {
+	*zoom: 1;
+}
+.shortcut {
+	height: 30px;
+	line-height: 30px;
+	background-color: #f1f1f1;
+}
+.shortcut_hd {
+	float: left;
+	font-size: 12px;
+}
+.shortcut_hd h3 {
+	font-weight: 400;
+}
+.shortcut_hd a {
+	color: #c81623;
+	margin-left: 5px;
+}
+.shortcut_bd {
+	float: right;
+	font-size: 12px;
+}
+.shortcut_bd li {
+	float: left;
+	padding: 0 10px;
+}
+.shortcut_bd li a {
+	color: #333;
+	margin-right: 20px;
+}
+.shortcut_bd li a:hover {
+	color: #c81623;
+}
+.shortcut_bd li i {
+	line-height: 25px;
+}
+/*header*/
+.header {
+	padding-top: 24px;
+	height: 64px;
+	margin-bottom: 20px;
+}
+.logo {
+	float: left;
+	height: 63px;
+	width: 184px;
+	background: url(../img/logo.png) no-repeat;
+	/*溢出的文字超出隐藏*/
+	text-indent: -999px;
+	overflow: hidden;
+}
+.wz {
+	float: left;
+	line-height: 63px;
+}
+.search {
+	float: right;
+	line-height: 84px;
+	
+}
+.search input {
+	float: left;
+	width: 443px;
+	height: 31px;
+	padding-left: 10px;
+	border: 3px solid #b1191a;
+}
+.search button {
+	float: left;
+	width: 85px;
+	height: 37px;
+	background-color: #b1191a;
+	color: #fff;
+}
+.total {
+	height: 40px;
+}
+.total h5 {
+	font-size: 16px;
+	color: #c81623;
+	font-weight: 400;
+}
+.listbar {
+	height: 32px;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+}
+.listbar li {
+	float: left;
+	line-height: 32px;
+	font-size: 12px;
+	color: #666666;
+}
+.quanxuan {
+	width: 260px;
+}
+.quanxuan input {
+	vertical-align: middle;
+}
+.shangpin {
+	width: 360px;
+}
+.danjia {
+	width: 170px;
+}
+.shuliang {
+	width: 135px;
+}
+.xiaoji {
+	width: 170px;
+}
+/*xiangqing*/
+.product_details_top {
+	margin: 20px 0;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+	border-bottom: 2px solid #dddddd;
+}
+.top_left,
+.honghe,
+.top_left input{
+	float: left;
+}
+.top_left input {
+	margin-top: 10px;
+}
+.honghe {
+	padding: 0 5px;
+	background-color: #c81623;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.top_right {
+	float: right;
+	color: #666;
+}
+.top_right span {
+	color: #c81623;
+}
+/*.product_details_center {
+	border: 1px solid #ccc;
+}*/
+.product_details_center_first,
+.product_details_center_second {
+	height: 107px;
+	border: 1px solid #ccc;
+	padding: 5px 0 0 5px;
+	
+}
+.product_details_center_second {
+	border-top: none;
+	border-bottom: none;
+}
+.biankuang {
+	border-top: none;
+}
+.details_center_one  {
+	width: 361px;
+	height: 107px;
+}
+.details_center_one input {
+	vertical-align: top;
+	margin-right: 18px;
+}
+.gift {
+	width: 15px;
+	height: 15px;
+	background-color: #c81623;
+}
+.gift img {
+	margin: 2px 0 5px 2px;
+}
+.strong,
+.strong_400 {
+	font-size: 12px;
+	font-weight: 700;
+}
+.pack {
+	margin-top: 10px;
+}
+.pack span {
+	font-size: 12px;
+	color: #999;
+}
+.one_item {
+	margin-right: 10px;
+}
+.details_center_two {
+	width: 218px;
+	margin-left: 37px;
+}
+.details_center_three {
+	font-size: 14px;
+	margin-right: 100px;
+}
+.details_center_four {
+	width: 155px;
+	
+}
+
+.details_center_four li {
+	float: left;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ccc;
+	text-align: center;
+	background-color: #fff;
+}
+.shuru {
+	width: 23px;
+	height: 23px;
+	border: none;
+	text-align: center;
+	line-height: 23px;
+	font-weight: 700;
+}
+.less,
+.add {
+	line-height: 25px;
+
+}
+.less {
+	cursor: not-allowed;
+}
+.add {
+	color: #c81623;
+}
+.details_center_five {
+	font-weight: 700;
+}
+.details_center_six {
+	font-size: 12px;
+	color: #666;
+}
+.details_center_six p {
+	height: 21px;
+}
+.product_details_center_second {
+	height: 200px;
+}
+.one_top span {
+	width: 45px;
+	height: 19px;
+	border: 1px solid #c81623;
+	color: #c81623;
+	text-align: center;
+	line-height: 19px;
+	margin-right: 16px;
+}
+.one_top,
+.two_top {
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 20px;;
+}
+.strong_400 {
+	font-weight: 400;
+}
+.one_bottom {
+	font-size: 12px;
+	color: #999;
+	padding: 21px 0 0 57px;	
+}
+.two_top_item {
+	width: 69px;
+	height: 19px;
+	background-color: #c81623;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 19px;
+}
+.two_bottom em {
+	margin-left: -10px;
+}
+.one_bottom .current {
+	color: #c81623;
+}
+.background {
+	background-color: #feedef;
+}
+.qt {
+	height: 30px;
+}
+.xiahang {
+	width: 82px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.ying {
+	width: 100px;
+}
+.top_left .duiqi {
+	margin-top: 7px;
+}
+.settlement {
+	height: 52px;
+	border-bottom: 1px solid #ccc;
+	
+}
+.sett_left span {
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+	line-height: 52px;
+}
+.sett_left em {
+	margin: 0 10px;
+}
+.right_one {
+	font-size: 12px;
+	color: #666;
+	margin-top: 13px;
+	margin-right: 35px;
+}
+.right_one span {
+	font-size: 16px;
+	color: #e60012;
+}
+.sett_ment {
+	float: left;
+	width: 106px;
+	height: 52px;
+	background-color: #e60012;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 52px;
+}
+.dele {
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.renew {
+	height: 30px;
+	background-color: #fffdee;
+	font-size: 12px;
+	color: #999;
+	line-height: 30px;
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+.jia {
+	margin: 0 158px 0 325px;
+}
+.chong {
+	margin: 0 20px 0 240px;
+}
+.frame {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.settlement {
+	border: 1px solid #ccc;
+	margin-top: 18px;
+}
+.guess {
+	height: 369px;
+}
+.gu_top {
+	height: 40px;
+	background-color: #f1f1f1;
+}
+.gu_top li {
+	float: left;
+	height: 40px;
+	padding: 0 15px;
+	line-height: 40px;
+	font-size: 12px;
+}
+.gu_top .current {
+	background-color: #c81623;
+	color: #fff;
+}
+.gu_bottom {
+	position: relative;
+}
+.gu_center {
+	margin-left: 30px;
+}
+.gu_center li {
+	float: left;
+	width: 245px;
+	height: 305px;
+	border: 1px dashed #ccc;
+	
+}
+.size {
+	font-size: 12px;
+}
+.money {
+	margin: 15px 0;
+	text-align: center;
+	color: #ed4b20;
+}
+.shop {
+	display: inline-block;
+	width: 127px;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 56px;
+}
+.gu_left a,
+.gu_right a {
+	position: absolute;
+	top: 163px;
+	height: 50px;
+	width: 19px;	
+	line-height: 50px;
+	background-color: #dddddd;
+	text-align: center;
+}
+.gu_left {
+	left: 0;
+	
+}
+.gu_right {
+	right: 0;
+	text-align: right;
+}
+.mod_help a {
+	color: #333;
+}
+..footer {
+	height: 415px;
+	background-color: #f5f5f5;
+}
+.mod_service {
+	height: 106px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_service_tit {
+	width: 53px;
+	height: 50px;
+	background: url(../img/jingling.png) no-repeat;
+}
+.mod_service li {
+	float: left;
+	width: 205px;
+	height: 76px;
+	padding: 30px 0 0 35px;
+	font-size: 16px;
+}
+.mod_service_zheng {
+	background-position: -23px -17px;
+}
+.mod_service h4 {
+	font-weight: 700;
+}
+.mod_service_ji {
+	background-position: -22px -93px;
+}
+.mod_service_hou {
+	background-position: -22px -166px;
+}
+.mod_help {
+	height: 189px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help dl {
+	float: left;
+	width: 148px;
+	height: 169px;
+	padding-top: 20px;
+	padding-left: 52px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.mod_help dd a {
+	font-size: 12px;
+}
+.mod_help_tu {
+	margin-left: 10px;
+}
+.mod_help img {
+	margin: 10px 0 10px 0;
+}
+.mod_help .pin {
+	font-size: 12px;
+}
+.mod-copyright {
+	text-align: center;
+	padding: 19px 0 0 120px;
+	line-height: 20px;
+	font-size: 12px;
+}

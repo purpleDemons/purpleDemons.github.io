@@ -1,0 +1,156 @@
+.clearfixed:before,
+.clearfixed:after {
+	content: "";
+	display: table;
+}
+.clearfixed:after {
+	clear: both;
+}
+.clearfixed {
+	*zoom: 1;
+}
+.sk {
+	position: absolute;
+	top: 39px;
+	left: 186px;
+	width: 72px;
+	height: 31px;
+	border-left: 2px solid #b1191a;
+}
+.sk img {
+	margin-left: 20px;
+}
+
+.dropdown li {
+	float: left;
+	height: 44px;
+}
+.dropdown li a {
+	display: block;
+	height: 44px;
+	width: 75px;
+	text-align: center;
+	line-height: 44px;
+	margin-left: 30px;
+}
+.dropdown li  h3 {
+	font-size: 16px;
+	font-weight: 700;
+}
+.nav .navitems {
+	margin-left: 20px;
+}
+.nav .navitems a {
+	font-size: 14px;
+}
+/*main 模块*/
+.main_hd {
+	height: 120px;
+}
+.main_hd img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.main_bd li {
+	position: relative;
+	float: left;
+	width: 286px;
+	height: 460px;
+	margin-top: 20px;
+	border: 1px solid transparent;
+}
+.main_bd li:hover {
+	border: 1px solid #e12228;
+}
+.img {
+	text-align: center;
+	margin-top: 20px;
+	transition: all .3s;
+}
+.img:hover {
+	margin-top: 10px;
+}
+.main_bd h3 {
+	padding: 15px 0 10px 25px;
+	font-weight: 400;
+}
+.my {
+	padding-left: 25px;
+	color: #e60012;
+	font-size: 22px;
+}
+.my del {
+	font-size: 14px;
+	color: #a4a4a4;
+}
+.sales {
+	padding-left: 25px;
+	font-size: 14px;
+}
+.scroll {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #e95a5f;
+	border-radius: 5px;
+}
+.scroll_l {
+	display: inline-block;
+	float: left;
+	width: 87%;
+	height: 11px;
+	background-color: #ed282e;
+}
+.main_bd a {
+	position: absolute;
+	bottom: 0;
+	/*display: block;*/
+	width: 286px;
+	height: 50px;
+	background-color: #b1191a;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+/*分页模块*/
+.page {
+	height: 36px;
+	text-align: center;
+}
+.page_left a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.page_left .top {
+	background-color: #fff;	
+}
+.page_left .top,
+.page_left .bottom {
+	width: 85px;
+}
+.page_left .current {
+	border: 1px solid transparent;
+	color: #e4393c;
+}
+.page_left .wu {
+	border: 1px solid transparent;
+}
+.page_right input {
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	transition: all 0.3s;
+}
+.page_right input:focus {
+	width: 66px;
+	border: 1px solid skyblue;
+}
+.page_right button {
+	width: 55px;
+	height: 36px;
+}

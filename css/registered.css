@@ -1,0 +1,110 @@
+.top {
+	height: 60px;
+	border-bottom: 2px solid #b3191b;
+	padding-top: 20px;
+}
+.registered {
+	border: 1px solid #ccc;
+}
+
+.re_hd {
+	height: 40px;
+	background-color: #ececec;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 10px;
+	margin-bottom: 50px;
+}
+.re_hd a {
+	font-size: 12px;
+	color: #d5102e;
+}
+.re_bd {
+	/*padding-left: 310px;*/
+	
+}
+.re_bd li {
+	float: left;
+	height: 54px;
+}
+
+.re_bd h3 {
+	line-height: 30px;
+	margin-right: 10px;
+	font-weight: 400;
+	width: 403px;
+	text-align: right;
+}
+.re_bd li input {
+	width: 235px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.re_bd li span {
+	font-size: 12px;
+	color: #de2d3f;
+}
+.protocol {
+	margin-left: 400px;
+	height: 65px;
+}
+.protocol .chbo {
+	width: 13px;
+	height: 13px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+.protocol a {
+	color: #3ba4e6;
+	margin-left: 10px;
+}
+.carry {
+	margin:0 0 45px 410px;
+}
+.carry a {
+	display: block;
+	width: 200px;
+	height: 33px;
+	background-color: #c81622;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 33px;
+}
+.re_bd .dengpa {
+	height: 44px;
+}
+.re_bd .safety {
+	height: 35px;
+}
+.safety h3 {
+	margin-left: 150px;
+	color: #ccc;
+	font-size: 12px;
+}
+.re_bd .safety span {
+	width: 23px;
+	height: 11px;
+	color: #fff;
+	line-height: 30px;
+	padding: 0 10px;
+}
+.red_i {
+	background-color: #d91914;
+}
+.green {
+	background-color: #40b73f;
+}
+.yellow {
+	background-color: #f79100;
+}
+.mod_copyright {
+	text-align: center;
+	
+}
+.mod_copyright p {
+	line-height: 20px;
+}
+.mod_items {
+	padding: 20px 0 15px 0;
+}
